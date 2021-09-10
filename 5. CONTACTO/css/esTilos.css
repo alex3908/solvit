@@ -1,0 +1,650 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+body{
+	font-family: "open sans";
+}
+
+h2{
+	font-family: times new roman;
+}
+
+.contenedor{
+	padding: 60px, 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.titulo{
+	color: 2C3E5O;
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+/*Header*/
+
+header{
+	width: 100%;
+	height: 350px;
+	background: #1D4350;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #A43931, #1D4350);
+	  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #A43931, #1D4350);
+	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+}
+.gris{
+	background: #1d435021;
+}
+
+.top-nav-collapse{
+	background: #1d4350;
+}
+
+.fondo {
+	width: 100%;
+	height: 350px;
+	background: #1D4350;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #A43931, #1D4350);
+	  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #A43931, #1D4350);
+	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 350px;
+	background: #1D4350;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #A43931, #1D4350);
+	  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #A43931, #1D4350);
+	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+}
+
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+
+nav > a{
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+nav > a:hover{
+	text-decoration: underline;
+}
+
+header .textos-header{
+	display: flex;
+	height: 230px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.textos-header h1{
+	font-size: 50px;
+	color: #fff;
+}
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+
+/*QUIENESSOMOS*/
+
+.card1{
+	display: flex;
+	justify-content: space-evenly;
+}
+.cards1 .card1{
+	background: #D0D0D0;
+	display: flex;
+	width: 60%;
+	height: 200px;
+	align-items: center;
+	justify-content: space-evenly;   
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+	margin-left: 280px;
+}
+
+.cards1 .card1 > p{
+	width: 100%;
+	color: black;
+	font-weight: 200;
+	width: 60%;
+	color: black;
+}
+
+h3{
+	color: black;
+	font-family: arial;
+	text-align: center;
+	margin-left:150px;
+	margin-right:150px;
+	font-size: 1.1em;
+}
+
+.cards1 > .card1{
+	color: black ;
+}
+
+.cards1 > .card1 p{
+	font-weight: 250;
+	padding-top: 5px;
+	text-align: center;
+}
+
+/*About us*/
+
+main .sobre-nosotros{
+	padding: 30px 0 60px 0;
+}
+
+.contenedor-sobre-nosotros{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.imagen-about-us{
+	width: 35%;
+	position: relative;
+}
+
+.sobre-nosotros .contenido-textos{
+	width: 48%;
+}
+
+.contenido-textos h3{
+	margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+	background: #0444;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	margin-right: 7px;
+}
+
+.contenido-textos p{
+	padding: 0px 0px 30px 15px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.portafolio{
+	background: #f2f2f2;
+}
+
+.galeria-port{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.imagen-port{
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0 0 6px;
+}
+
+.imagen-port > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.hover-galeria{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transform: scale(0);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hover-galeria img {
+	width: 90px;
+}
+
+.hover-galeria p{
+	color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+	transform: scale(1);
+}
+
+
+/*Cliente*/
+
+.cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cards .card{
+	background: #D0D0D0;
+	display: flex;
+	width: 20%;
+	height: 40px;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 2px;
+	box-shadow: 0 0 6px 0 rgba(127, 127,127);
+}
+
+.cards .card img{
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+	border: 2px, solid #ccc;
+	border-radius: 50%;
+	display: block;
+}
+
+.cards .card > .contenido-texto-card{
+	width: 60%;
+	color: black ;
+}
+
+.cards .card > .contenido-texto-card p{
+	font-weight: 300;
+	padding-top: 5px;
+}
+
+h3{
+	color: black;
+	font-family: arial;
+	text-align: center;
+	margin-left:110px;
+	margin-right:110px;
+	font-size: 1.15em;
+}
+/*Our team*/
+
+.about-services{
+	background: #ccc;
+	padding-bottom: 30px;
+}
+
+.servicio-cont{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.servicio-ind{
+	width: 28%;
+	text-align: center;
+	margin-left: 200px;
+}
+
+.servicio-ind h4{
+	margin: 10px 105px;
+}
+
+.servicio-ind p{
+	text-align: center;
+	margin-left: 330px;
+}
+
+
+/* footer */
+
+footer{
+	background: #414141;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid #0444;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: #ccc;
+	border-bottom: 3px solid #0444;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 30px;
+	margin: 20px 0 0 0;
+	color:  #9E9797;
+}
+
+@media only screen and (max-width: 990px){
+	.disapear{
+		display: none;
+	}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+body{
+	font-family: "open sans";
+}
+
+.contenedor{
+	padding: 60px, 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.titulo{
+	color: 2C3E5O;
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+h3{
+	color: black;
+	font-family: Times New Roman;
+	text-align: center;
+
+}
+
+/*Header*/
+
+header{
+	width: 100%;
+	height: 350px;
+	background: #1D4350;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #A43931, #1D4350);
+	  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #A43931, #1D4350);
+	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+}
+
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+
+nav > a{
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+
+.container1{
+	width: 100%;
+	max-width: 1200px;
+	height: 430px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.container1 .card{
+	width: 600px;
+	height: 500px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.container1 .card:hover{
+	transform: translate(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.container1 .card img{
+	widows: 600px;
+	height: 500px
+}
+
+.container1 .card h3{
+	font-weight: 600;
+}
+
+.container1 .card p{
+	padding: 0 1rem;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: arial;
+}
+
+.container1 .card a{
+	font-weight: 500;
+	text-decoration: none;
+	color: #3498db;
+}
+
+
+/*Cliente*/
+
+.cards{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+.cards .card{
+	background: #D0D0D0;
+	display: flex;
+	width: 20%;
+	height: 40px;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 2px;
+	box-shadow: 0 0 6px 0 rgba(127, 127,127);
+}
+
+.cards .card img{
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+	border: 2px, solid #ccc;
+	border-radius: 50%;
+	display: block;
+}
+
+.cards .card > .contenido-texto-card{
+	width: 60%;
+	color: black ;
+}
+
+.cards .card > .contenido-texto-card p{
+	font-weight: 200;
+	padding-top: 5px;
+}
+
+/*Our team*/
+
+.about-services{
+	background: #ccc;
+	padding-bottom: 30px;
+	margin-right:110px;
+	margin-left: 110px;
+}
+
+.servicio-cont{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right:110px;
+	margin-left: 110px;
+}
+
+.servicio-ind{
+	width: 28%;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.servicio-ind img{
+	width: 70%;
+}
+
+.servicio-ind h4{
+	margin: 10px 105px;
+}
+
+.servicio-ind p{
+	text-align: center;
+	margin-left: 400px;
+}
+
+/* footer */
+
+footer{
+	background: #414141;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid #0444;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: #ccc;
+	border-bottom: 3px solid #0444;
+}
+
+.titulo-final{
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color:  #9E9797;
+	text-align: center;
+}
+
+nav > a:hover{
+	text-decoration: underline;
+}
+
+header .textos-header{
+	display: flex;
+	height: 230px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.textos-header h1{
+	font-size: 50px;
+	color: #fff;
+}
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+
