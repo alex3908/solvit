@@ -361,7 +361,7 @@ header{
 
 }
 .gris{
-	background: #1d435021;
+	background: #1d43507a;
 }
 
 .top-nav-collapse{
@@ -697,6 +697,9 @@ footer{
 @media only screen and (max-width: 990px){
 	.disapear{
 		display: none;
+	}
+	.gris{
+		background: #1d4350ce;
 	}
 }
 
